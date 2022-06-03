@@ -1,0 +1,221 @@
+/* google fonts */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Spline Sans Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spline+Sans+Mono&display=swap');
+
+/* common code start */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container-full{
+    width: 100%;
+    height: auto;
+    clear: both;
+    /* border: 1px solid red; */
+}
+.container{
+    width: 73%;
+    height: 100%;
+    margin: 0px auto;
+    /* border: 1px solid rgb(120, 89, 89); */
+}
+.bg-primary{
+    background: #CCCCCC;
+}
+.bg-secondary{
+    background: #F5F5F5;
+}
+.bg-light{
+    background: #DDDDDD;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Spline Sans Mono', monospace;
+}
+p,a,span,small{
+    font-family: 'Roboto', sans-serif;
+}
+/* common code end */
+/* header start */
+.header h1{
+    color: #000;
+    font-weight: 400;
+    margin: 0px;
+    padding: 40px 0px 0px 10px;
+}
+.header span{
+    color: #2AC6EE;
+}
+.header p{
+    color: #999;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 0px 40px 10px;
+}
+/* header end */
+
+/* navbar start */
+.navbar ul{
+    margin: 0px 0px 0px auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 5px;
+    /* border: 3px solid rgb(22, 21, 21); */
+    text-align: right;
+    width: 80%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    color: #000;
+    margin: 0px 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background: #BBBBBB;
+    display: inline-block;
+}
+.navbar ul li a.active{
+    color: #fff;
+    background: #009FBC;
+}
+/* navbar end */
+
+/* banner start */
+.banner-inner{
+    margin-top: 15px;
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+    min-height: 200px;
+    border: 8px solid #DDDDDD;
+    /* box-sizing: border-box; */
+}
+/* banner end */
+
+/* main start */
+.main-inner{
+    background: #999;
+    /* height: 500px; */
+    /* clear: both; */
+}
+.aside{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.aside .aside-content{
+    height: auto;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    margin: 15px 0px;
+    padding: 20px 10px 30px 10px;
+}
+.aside .aside-content h3{
+    font-size: 20px;
+    color: #121010;
+    font-weight: 400;
+    margin: 0px;
+}
+.aside .aside-content h4{
+    font-size: 18px;
+    color: #009FBC;
+    font-weight: 400;
+    margin: 15px 0px 0px 0px;
+}
+.aside .aside-content small{
+    font-size: 14px;
+    color: #888;
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+}
+.aside .aside-content p{
+    color: #4e3e3e;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    text-align: justify
+}
+.aside .aside-content a{
+    color: #009FBC;
+    text-align: justify
+}
+.aside .aside-content ul li{
+    line-height: 1.5;
+    list-style: url(../img/bullet.png);
+}
+.aside .aside-content form{
+    position: relative;
+    margin-top: 10px;
+}
+.aside .aside-content form input {
+    height: 40px;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+.aside .aside-content form button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+.aside .aside-content form button img{
+    height: 30px;
+}
+.article{
+    float: left;
+    width: 70%;
+    height: 100%;
+    /* background: #ecf6f6; */
+    margin-top: 15px;
+    padding: 0px 0px 0px 20px;
+    /* box-sizing: border-box; */
+}
+.article img{
+    padding: 10px 30px;
+}
+
+.article h2{
+    font-size: 22px;
+    color: #121010;
+    font-weight: 400;
+}
+.article p{
+    color: #4e3e3e;
+    line-height: 1.4;
+    text-align: justify;
+}
+.article ul{
+    padding-left: 20px;
+}
+.article ul li{
+    color: #4e3e3e;
+    line-height: 1.4;
+    text-align: justify;
+    list-style: url(../img/bullet.png);
+}
+/* main start */
+
+/* footer start */
+.footer{
+    clear: both;
+    padding: 30px 0px;
+}
+.footer .footer-left{
+    margin: 0px;
+    float: left;
+}
+.footer .footer-right{
+    text-align: right;
+    margin: 0px;
+    float: right;
+}
+.footer a{
+    color: #009FBC;
+
+}
+
+/* footer end */
